@@ -9,16 +9,29 @@
     <title>Olá, mundo!</title>
   </head>
   <body>
+
   <div class="container">
   
   
-    <h1>cadastro produto</h1>
-
-    <?php require  "sistema/includes/menu.php"; ?>
    
-   <h1>Seja bem vindo</h1>
-   <?php require  "sistema/includes/rodape.php"; ?>
+    <?php require  "includes/menu.php"; ?>
+   
+    <h1>cadastro Cidade</h1>
+     
+    
+<form method="post" action="acao/clienteCidade.php">
+  <div class="form-group">
+    <label for="pais">Nome da Cidade</label>
+    <input type="text" class="form-control" name="nome" id="pais" aria-describedby="emailHelp" placeholder="Sua cidade bosta">
+
+  </div>
+
+  <button type="submit" name="enviar" value="cadastrar Cidade" class="btn btn-primary">Enviar</button>
+</form>
+   <?php require  "includes/rodape.php"; ?>
+
 </div>
+
   
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

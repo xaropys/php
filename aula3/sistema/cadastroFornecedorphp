@@ -13,10 +13,10 @@
   
   
     <h1>cadastro fornecedor</h1>
-    <?php require  "sistema/includes/menu.php"; ?>
+    <?php require  "includes/menu.php"; ?>
    
 
-   <?php require  "sistema/includes/rodape.php"; ?>
+   <?php require  "includes/rodape.php"; ?>
 </div>
 
   

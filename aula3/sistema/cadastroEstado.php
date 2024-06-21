@@ -14,21 +14,21 @@
   
   
    
-    <?php require  "aula3/sistema/includes/menu.php"; ?>
+    <?php require  "includes/menu.php"; ?>
    
-    <h1>cadastro Pais</h1>
+    <h1>cadastro Estado</h1>
      
     
-<form method="post" action="aula3/sistema/acao/cliente.php">
+<form method="post" action="acao/clienteEstado.php">
   <div class="form-group">
-    <label for="pais">Nome do Pais</label>
-    <input type="text" class="form-control" name="pais" id="pais" aria-describedby="emailHelp" placeholder="Seu pais">
+    <label for="pais">Nome do Estado</label>
+    <input type="text" class="form-control" name="nome" id="pais" aria-describedby="emailHelp" placeholder="Seu estado">
 
   </div>
 
-  <button type="submit" name="enviar" value="cadastrar Pais" class="btn btn-primary">Enviar</button>
+  <button type="submit" name="enviar" value="cadastrar Estado" class="btn btn-primary">Enviar</button>
 </form>
-   <?php require  "sistema/includes/rodape.php"; ?>
+   <?php require  "includes/rodape.php"; ?>
 
 </div>
 

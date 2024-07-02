@@ -86,6 +86,7 @@
        {
               $this->nome = $_POST['nome'];
               $this->email = $_POST['email'];
+
               $this->about = $_POST['about'];
               $this->bairro = $_POST['nome'];
               echo $nome->getNome() . $email->getEmail() . "\n" . echo $bairro->getBairro() . "\n" . echo $about->getAbout();
